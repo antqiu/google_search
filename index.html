@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link href="style.css" rel="stylesheet"> 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body>
+        <ul class="nav">
+            <li><a href="image_search.html">Image Search</a></li>
+            <li><a href="advanced_search.html">Advanced Search</a></li>
+        </ul>
+        
+        <div class="container">
+            <div class="row">
+                <img class="col-6 logo" src="img/google_logo.png" alt="Google Logo">
+            </div>
+
+            <div class="row">
+                <form id="searches" action="https://google.com/search">
+                    <input class="col-8 offset-2 input" id="search_bar" type="text" name="q">    
+
+                    <div class="row">
+                        <input class="col-2 offset-4 button mt-4 py-3" type="submit" name="search" value="Google Search">
+
+                        <!--
+                        <input type="hidden" name="btnI" value="I'm feeling lucky">
+                        <input type="hidden" name="source" value="hp">
+                        -->
+
+                        <input class="col-2 button mt-4 py-3" id="lucky" type="button" name="lucky" value="I'm Feeling Lucky!">
+                        <script src="script.js"></script>
+                    </div>
+            </div>
+
+                </form>
+        </div>
+
+
+
+    </body>
+</html>

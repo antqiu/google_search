@@ -1,0 +1,54 @@
+$spacer: 10px;
+
+.nav {
+    position: absolute;
+    right: $spacer*2;
+    top: $spacer;
+}   
+
+.nav {
+    li {
+        margin: 0px 0px 1vw 1vw;
+        
+        a {
+            color:black;
+            font-size: 1vw;
+        }
+    }
+
+}
+
+.container  {
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+.logo { 
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+%button {
+    margin: $spacer;
+    padding: $spacer/2;
+    border-radius:$spacer/2;
+    border: none;
+    text-align:center;
+}
+
+.button {
+    @extend %button;
+}
+
+.input {
+    margin-right:auto;
+    border-color: black;
+    border-width: 2.5px;
+    height:45px;
+    border-radius: $spacer*5;
+}
+
+#adv_search {
+    background-color: blue;    
+    color: white;
+}
